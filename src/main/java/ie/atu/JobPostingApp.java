@@ -48,3 +48,4 @@ public class JobPostingApp {
         scan.close();
     }
 }
+// comment to commit

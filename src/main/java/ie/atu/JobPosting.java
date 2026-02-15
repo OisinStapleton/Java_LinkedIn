@@ -31,3 +31,5 @@ public class JobPosting {
     public String getSalaryRange() { return salaryRange; }
     public void setSalaryRange(String salaryRange) { this.salaryRange = salaryRange; }
 }
+
+//comment to commit
