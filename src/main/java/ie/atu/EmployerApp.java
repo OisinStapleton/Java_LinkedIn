@@ -1,5 +1,5 @@
 package ie.atu;
-//comment to commit
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -10,28 +10,28 @@ public class EmployerApp {
         Scanner scan = new Scanner(System.in);
         ArrayList<Employer> employers = new ArrayList<>();
 
-        Employer e = new Employer();
+        Employer employer = new Employer();
 
-        System.out.print("Enter Employer ID: ");
-        e.setEmployerId(scan.nextInt());
-        scan.nextLine(); // clear buffer
+        System.out.print("Please enter employer ID: ");
+        employer.setEmployerId(scan.nextInt());
+        scan.nextLine();
 
-        System.out.print("Enter Company Name: ");
-        e.setCompanyName(scan.nextLine());
+        System.out.print("Please enter company name: ");
+        employer.setCompanyName(scan.nextLine());
 
-        System.out.print("Enter Industry: ");
-        e.setIndustry(scan.nextLine());
+        System.out.print("Please enter industry name: ");
+        employer.setIndustry(scan.nextLine());
 
-        System.out.print("Enter Location: ");
-        e.setLocation(scan.nextLine());
+        System.out.print("Please enter your location: ");
+        employer.setLocation(scan.nextLine());
 
-        System.out.print("Enter Email: ");
-        e.setContactEmail(scan.nextLine());
+        System.out.print("Please enter your e-mail: ");
+        employer.setContactEmail(scan.nextLine());
 
-        System.out.print("Enter Phone: ");
-        e.setContactPhone(scan.nextLine());
+        System.out.print("Please enter your phone number: ");
+        employer.setContactPhone(scan.nextLine());
 
-        employers.add(e);
+        employers.add(employer);
 
         System.out.println("\nAll Employers:");
         for (Employer emp : employers) {
